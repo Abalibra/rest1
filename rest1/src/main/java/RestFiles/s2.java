@@ -7,12 +7,23 @@ import static org.hamcrest.Matchers.*;
 
 
 public class s2 {
-
-	@Test
-	public void t() {}
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print("PC322");
+		
+	given().
+		baseUri("https://coupon-service-api.dev.svc.jahez.net").
+		header("tenantId","2").
+	
+	when().
+		get("/api/v1/Coupons/44").
+	
+		
+	then().
+		log().all().
+		assertThat().
+		statusCode(200) ; 
+	
+	
 	}
 
 }
