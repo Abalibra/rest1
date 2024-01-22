@@ -3,4 +3,33 @@
   <groupId>restassured</groupId>
   <artifactId>rest1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  
+  	<dependencies>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+	</dependencies>
+
+  
+  
 </project>
